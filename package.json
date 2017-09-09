@@ -1,0 +1,39 @@
+{
+  "name": "testing-live-debugging-with-docker",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Testing and live debugging with docker",
+  "scripts": {
+    "start": "nodemon --inspect ./bin/www"
+  },
+  "keywords": [
+    "testing",
+    "docker",
+    "live-debugging",
+    "meetup"
+  ],
+  "repository": "https://github.com/AxelMonroyX/testing-live-debugging-with-docker.git",
+  "homepage": "https://github.com/AxelMonroyX/testing-live-debugging-with-docker",
+  "author": "Axel Monroy <xaxelmonroyx@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/AxelMonroyX/testing-live-debugging-with-docker/issues",
+    "email": "xaxelmonroyx@gmail.com"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "mongodb": "^2.2.21",
+    "morgan": "~1.7.0",
+    "pug": "~2.0.0-beta6",
+    "serve-favicon": "~2.3.0"
+  },
+  "engines": {
+    "node": ">= 6.11.3"
+  },
+  "main": "app.js",
+  "bin": {
+    "www": "./bin/www"
+  }
+}
