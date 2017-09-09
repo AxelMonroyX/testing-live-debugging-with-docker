@@ -13,7 +13,7 @@ services:
       - mongo
     links:
       - mongo:db
-    command: /bin/bash -c "npm start"
+    command: /bin/bash -c "npm install && npm start"
   mongo:
     image: mongo:3
     ports:
